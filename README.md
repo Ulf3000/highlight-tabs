@@ -5,8 +5,11 @@ with this addon you can highlight your important tabs in different colors ,
 
 so after session restore and with tons of tabs open you can easily find those 3 important tabs etc.
 
-use the tab context menu with various colors , or quickly alt click a tab to color/uncolor it 
-supports multitabs selection 
+--------------------------
+
+- use the tab context menu with various colors , or quickly alt click a tab to color/uncolor it 
+
+- supports multitabs selection 
 
 --------------------------
 
