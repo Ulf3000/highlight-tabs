@@ -80,11 +80,11 @@ var highlightTab_at_Ulf3000 = {
 		row7i2.setAttribute('style', 'background : #C7B49C !important;-moz-appearance: unset !important;min-height: 17px !important;');
 
 
-		
+
 		let noColorItem = menupopup.appendChild(document.createXULElement('menuitem'));
 		noColorItem.setAttribute("oncommand", "highlightTab_at_Ulf3000.highlightTab(event, '')");
 		noColorItem.setAttribute('label', 'None');
-		
+
 
 		let tabContextMenu = document.getElementById('tabContextMenu');
 		tabContextMenu.insertBefore(menu, document.getElementById('context_pinTab').nextSibling);
@@ -121,15 +121,28 @@ var highlightTab_at_Ulf3000 = {
 		}
 	},
 	highlightTab: function (e, c) {
-		//console.log(e)
-		let tab = TabContextMenu.contextTab;
-		if (c == '' || c == SessionStore.getCustomTabValue(tab, "highlighted_HT")) {
-			tab.style.removeProperty('background');
-			SessionStore.deleteCustomTabValue(tab, "highlighted_HT");
+
+
+		if (gBrowser.multiSelectedTabsCount > 0) {
+			console.log("multiSelectedTabsCount");
+			for (let tab of gBrowser.selectedTabs) {
+				tab.style.setProperty('background', c, "important");
+				SessionStore.setCustomTabValue(tab, "highlighted_HT", c);
+			}
+
 		} else {
-			tab.style.setProperty('background', c, "important");
-			SessionStore.setCustomTabValue(tab, "highlighted_HT", c);
+			let tab = TabContextMenu.contextTab;
+			if (c == '' || c == SessionStore.getCustomTabValue(tab, "highlighted_HT")) {
+				tab.style.removeProperty('background');
+				SessionStore.deleteCustomTabValue(tab, "highlighted_HT");
+			} else {
+				tab.style.setProperty('background', c, "important");
+				SessionStore.setCustomTabValue(tab, "highlighted_HT", c);
+			}
+
+
 		}
+		//console.log(e)
 	},
 	highlightTab2: function (node, c) {
 		//console.log(e)
