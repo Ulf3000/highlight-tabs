@@ -1,9 +1,12 @@
 # highlight-tabs
 firefox addon to highlight tabs with colors for easy and fast recognition and fluid workflow
 
-with this addon you can highlight tabs in different colors , so after session restore or with tons of tabs open you can easily find thiose 3 important tabs etc.
+with this addon you can highlight your important tabs in different colors , 
+
+so after session restore and with tons of tabs open you can easily find those 3 important tabs etc.
 
 use the tab context menu with various colors , or quickly alt click a tab to color/uncolor it 
+supports multitabs selection 
 
 --------------------------
 
