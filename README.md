@@ -18,6 +18,8 @@ this is part of my "tab-trio" collection which i need for quick and efficient wo
 
 tested on firefox 100 
 
+please use https://github.com/xiaoxiaoflood/firefox-scripts userchrome js loader to load this script. 
+
 
 ![Clipboard Image](https://user-images.githubusercontent.com/10765339/170868136-35dd7f22-0e86-4384-82b7-8b9715c764f4.png)
 ![Clipboard Image (1)](https://user-images.githubusercontent.com/10765339/170868223-e4004406-6cf1-4804-8b1f-04d570176b46.png)
