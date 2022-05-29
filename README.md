@@ -10,3 +10,4 @@ tested on firefox 100
 
 
 ![Clipboard Image](https://user-images.githubusercontent.com/10765339/170868136-35dd7f22-0e86-4384-82b7-8b9715c764f4.png)
+![Clipboard Image (1)](https://user-images.githubusercontent.com/10765339/170868223-e4004406-6cf1-4804-8b1f-04d570176b46.png)
