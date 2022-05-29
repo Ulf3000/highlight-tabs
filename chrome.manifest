@@ -1,0 +1,3 @@
+content highlighttab		content/
+# overlay chrome://browser/content/browser.xhtml chrome://highlighttab/content/browserOverlay.xhtml
+
