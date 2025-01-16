@@ -16,7 +16,7 @@ so after session restore and with tons of tabs open you can easily find those 3 
 this is part of my "tab-trio" collection which i need for quick and efficient work/research in firefox (but works with standard tabs too).
 
 
-tested on firefox 100 
+tested on firefox 100 // update : tested on ff134, still works nicely
 
 please use https://github.com/xiaoxiaoflood/firefox-scripts userchrome js loader to load this script. 
 
